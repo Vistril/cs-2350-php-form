@@ -1,0 +1,30 @@
+<html><head>
+</head>
+<body>
+
+<form action="/script.php">
+    <div style="border:2px solid black;margin-right:1700px;"><p>Card ownership</p>
+    <input type="radio" id="personal" name="cardst" value="personal">
+<label for="personal">Personal</label><br>
+<input type="radio" id="business" name="cardst" value="business">
+    <label for="business">Business</label>
+</div>
+<br>
+<p>Credit card type:</p><select name="dropdown">
+    <option>MasterCard</option>
+    <option>Visa</option>    
+</select>
+    <p>Card number:</p>
+    <input type="text" id="cnumber"><br><br><br><p>Expiration date:</p>
+<select name="months" style="float:left;">
+              <option>January</option>
+              </select>
+<select name="years" style="float:right;margin-right:1850px;">
+    <option>21</option>
+</select><br><br><br><input type="submit" value="Submit"></form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+
+</body></html>
